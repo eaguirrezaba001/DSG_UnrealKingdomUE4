@@ -1,0 +1,292 @@
+Begin Object Class=Material Name="AguaMejorada"
+   Begin Object Class=MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_0"
+   End Object
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=MaterialExpressionConstant3Vector Name="MaterialExpressionConstant3Vector_0"
+   End Object
+   Begin Object Class=MaterialExpressionDepthFade Name="MaterialExpressionDepthFade_0"
+   End Object
+   Begin Object Class=MaterialExpressionDepthFade Name="MaterialExpressionDepthFade_1"
+   End Object
+   Begin Object Class=MaterialExpressionDivide Name="MaterialExpressionDivide_0"
+   End Object
+   Begin Object Class=MaterialExpressionFresnel Name="MaterialExpressionFresnel_0"
+   End Object
+   Begin Object Class=MaterialExpressionFresnel Name="MaterialExpressionFresnel_1"
+   End Object
+   Begin Object Class=MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_4"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_6"
+   End Object
+   Begin Object Class=MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0"
+   End Object
+   Begin Object Class=MaterialExpressionPanner Name="MaterialExpressionPanner_2"
+   End Object
+   Begin Object Class=MaterialExpressionPanner Name="MaterialExpressionPanner_3"
+   End Object
+   Begin Object Class=MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_2"
+   End Object
+   Begin Object Class=MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_3"
+   End Object
+   Begin Object Class=MaterialExpressionWorldPosition Name="MaterialExpressionWorldPosition_0"
+   End Object
+   Begin Object Class=SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionTextureSample'AguaMejorada:MaterialExpressionTextureSample_2',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSample'AguaMejorada:MaterialExpressionTextureSample_3',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      MaterialExpressionEditorX=-160
+      MaterialExpressionEditorY=48
+      MaterialExpressionGuid=12A9F538474CC724152BB0936DA08873
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_0"
+      Input=(Expression=MaterialExpressionDivide'AguaMejorada:MaterialExpressionDivide_0')
+      R=True
+      G=True
+      MaterialExpressionEditorX=-688
+      MaterialExpressionGuid=993E606442933F75CBAE74BADB5284EA
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=1200.000000
+      MaterialExpressionEditorX=-896
+      MaterialExpressionEditorY=16
+      MaterialExpressionGuid=7F9FFBB7422F7BA4E0EEEA89B0053B62
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionConstant3Vector_0"
+      Constant=(R=1.000000,G=1.000000,B=0.500000,A=0.000000)
+      MaterialExpressionEditorX=-208
+      MaterialExpressionEditorY=176
+      MaterialExpressionGuid=B7CF5A15495537266D4DAE8EA6B79046
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionDepthFade_0"
+      MaterialExpressionEditorX=176
+      MaterialExpressionEditorY=-368
+      MaterialExpressionGuid=7D7DF2D244E9EEF0DDAF8A8D4D2BAA7E
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionDepthFade_1"
+      FadeDistanceDefault=500.000000
+      MaterialExpressionEditorX=544
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=53AC468D4894751F669E8E963CCA85EF
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionDivide_0"
+      A=(Expression=MaterialExpressionWorldPosition'AguaMejorada:MaterialExpressionWorldPosition_0')
+      B=(Expression=MaterialExpressionConstant'AguaMejorada:MaterialExpressionConstant_0')
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=-16
+      MaterialExpressionGuid=3FB1E5CC425FAA8E5CF6DBA35A7DFA06
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionFresnel_0"
+      MaterialExpressionEditorX=96
+      MaterialExpressionEditorY=-192
+      MaterialExpressionGuid=FB04E8774E6B968431A8158DE5F2BCA0
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionFresnel_1"
+      Normal=(Expression=MaterialExpressionMultiply'AguaMejorada:MaterialExpressionMultiply_0')
+      MaterialExpressionEditorX=320
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=50DF7CCC400143A48617D0B66F5CB20F
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionVectorParameter'AguaMejorada:MaterialExpressionVectorParameter_2',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionVectorParameter'AguaMejorada:MaterialExpressionVectorParameter_3',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionFresnel'AguaMejorada:MaterialExpressionFresnel_1')
+      MaterialExpressionEditorX=416
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=A57B007444EFCFB73442838B9DAA997E
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionAdd'AguaMejorada:MaterialExpressionAdd_0')
+      B=(Expression=MaterialExpressionConstant3Vector'AguaMejorada:MaterialExpressionConstant3Vector_0')
+      MaterialExpressionEditorX=-48
+      MaterialExpressionEditorY=96
+      MaterialExpressionGuid=E3FBD6E548D77DD66E3FB7809ABF4061
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionDepthFade'AguaMejorada:MaterialExpressionDepthFade_0')
+      B=(Expression=MaterialExpressionOneMinus'AguaMejorada:MaterialExpressionOneMinus_0')
+      MaterialExpressionEditorX=425
+      MaterialExpressionEditorY=-295
+      MaterialExpressionGuid=3096C4C74A41EE1E4D0E5ABFC750A283
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionDepthFade'AguaMejorada:MaterialExpressionDepthFade_0')
+      B=(Expression=MaterialExpressionScalarParameter'AguaMejorada:MaterialExpressionScalarParameter_0')
+      MaterialExpressionEditorX=448
+      MaterialExpressionEditorY=-496
+      MaterialExpressionGuid=A885AAED4636466BF4C6F8A81CB2A3EE
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_4"
+      A=(Expression=MaterialExpressionLinearInterpolate'AguaMejorada:MaterialExpressionLinearInterpolate_0')
+      B=(Expression=MaterialExpressionDepthFade'AguaMejorada:MaterialExpressionDepthFade_1')
+      MaterialExpressionEditorX=544
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=02C5EE1245898A6BE5BB14BBD81A26F6
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_6"
+      A=(Expression=MaterialExpressionScalarParameter'AguaMejorada:MaterialExpressionScalarParameter_1')
+      B=(Expression=MaterialExpressionMultiply'AguaMejorada:MaterialExpressionMultiply_4')
+      MaterialExpressionEditorX=720
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=687A3BD845472A3CD626878266D2445E
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0"
+      Input=(Expression=MaterialExpressionFresnel'AguaMejorada:MaterialExpressionFresnel_0')
+      MaterialExpressionEditorX=336
+      MaterialExpressionEditorY=-192
+      MaterialExpressionGuid=C47D9991437F6CDD5E03598546AE0D95
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_2"
+      Coordinate=(Expression=MaterialExpressionComponentMask'AguaMejorada:MaterialExpressionComponentMask_0')
+      SpeedX=0.010000
+      SpeedY=-0.010000
+      MaterialExpressionEditorX=-543
+      MaterialExpressionEditorY=4
+      MaterialExpressionGuid=A447C2374F4140FC82EC4198C9AAFA7F
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_3"
+      Coordinate=(Expression=MaterialExpressionComponentMask'AguaMejorada:MaterialExpressionComponentMask_0')
+      SpeedX=-0.012000
+      SpeedY=0.015000
+      MaterialExpressionEditorX=-544
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=A447C2374F4140FC82EC4198C9AAFA7F
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      DefaultValue=2.000000
+      ParameterName="Refraccion"
+      ExpressionGUID=EADAF1044046DFA047BBB08F8801C2E7
+      MaterialExpressionEditorX=288
+      MaterialExpressionEditorY=-496
+      MaterialExpressionGuid=57A66B474C9448743C672DA7262F801A
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.100000
+      ParameterName="base"
+      ExpressionGUID=F54C16C547B06825CDFB268366B878EC
+      MaterialExpressionEditorX=576
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=783E040F4AFCEDEE0B8E389E95F71A3A
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Coordinates=(Expression=MaterialExpressionPanner'AguaMejorada:MaterialExpressionPanner_2')
+      Texture=Texture2D'/Game/StarterContent/Textures/T_Water_N.T_Water_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=-96
+      MaterialExpressionGuid=141C54D8443B2E4B8394BCB07F0CAEBE
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Coordinates=(Expression=MaterialExpressionPanner'AguaMejorada:MaterialExpressionPanner_3')
+      Texture=Texture2D'/Game/StarterContent/Textures/T_Water_N.T_Water_N'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=128
+      MaterialExpressionGuid=141C54D8443B2E4B8394BCB07F0CAEBE
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_2"
+      DefaultValue=(R=0.000000,G=0.129000,B=0.780000,A=0.000000)
+      ExpressionGUID=1E50FE904E7446BCC42B869DD89EA8DA
+      MaterialExpressionEditorX=192
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=CEAD215D4E75B684977CCD9A952483CA
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_3"
+      DefaultValue=(R=0.210000,G=0.984000,B=1.000000,A=0.000000)
+      ExpressionGUID=E79BFDAB46563A8C981A5684EF17E76A
+      MaterialExpressionEditorX=128
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=CEAD215D4E75B684977CCD9A952483CA
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="MaterialExpressionWorldPosition_0"
+      MaterialExpressionEditorX=-992
+      MaterialExpressionEditorY=-80
+      MaterialExpressionGuid=7D4974DF47E8C225C6DBF2873C736A27
+      Material=Material'AguaMejorada'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_6')
+   Normal=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_0')
+   Opacity=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_1')
+   BlendMode=BLEND_Translucent
+   Refraction=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_3')
+   TranslucencyLightingMode=TLM_VolumetricDirectional
+   bUsesDistortion=True
+   EditorX=624
+   EditorY=-400
+   Expressions(0)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_2'
+   Expressions(1)=MaterialExpressionWorldPosition'MaterialExpressionWorldPosition_0'
+   Expressions(2)=MaterialExpressionDivide'MaterialExpressionDivide_0'
+   Expressions(3)=MaterialExpressionConstant'MaterialExpressionConstant_0'
+   Expressions(4)=MaterialExpressionComponentMask'MaterialExpressionComponentMask_0'
+   Expressions(5)=MaterialExpressionPanner'MaterialExpressionPanner_2'
+   Expressions(6)=MaterialExpressionPanner'MaterialExpressionPanner_3'
+   Expressions(7)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_3'
+   Expressions(8)=MaterialExpressionAdd'MaterialExpressionAdd_0'
+   Expressions(9)=MaterialExpressionMultiply'MaterialExpressionMultiply_0'
+   Expressions(10)=MaterialExpressionConstant3Vector'MaterialExpressionConstant3Vector_0'
+   Expressions(11)=MaterialExpressionDepthFade'MaterialExpressionDepthFade_0'
+   Expressions(12)=MaterialExpressionMultiply'MaterialExpressionMultiply_1'
+   Expressions(13)=MaterialExpressionFresnel'MaterialExpressionFresnel_0'
+   Expressions(14)=MaterialExpressionOneMinus'MaterialExpressionOneMinus_0'
+   Expressions(15)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_0'
+   Expressions(16)=MaterialExpressionMultiply'MaterialExpressionMultiply_3'
+   Expressions(17)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_2'
+   Expressions(18)=MaterialExpressionVectorParameter'MaterialExpressionVectorParameter_3'
+   Expressions(19)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_0'
+   Expressions(20)=MaterialExpressionFresnel'MaterialExpressionFresnel_1'
+   Expressions(21)=MaterialExpressionMultiply'MaterialExpressionMultiply_4'
+   Expressions(22)=MaterialExpressionDepthFade'MaterialExpressionDepthFade_1'
+   Expressions(23)=MaterialExpressionMultiply'MaterialExpressionMultiply_6'
+   Expressions(24)=MaterialExpressionScalarParameter'MaterialExpressionScalarParameter_1'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=AA3D89D54E3488431DF05299DCCC838D
+   ReferencedTextureGuids(0)=ED91C7FF44155A62899E11A48FACC6A8
+   TextureStreamingData(0)=(SamplingScale=0.015625,UVChannelIndex=0,TextureName="T_Water_N",TextureReference=/Game/StarterContent/Textures/T_Water_N.T_Water_N)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_0'
+   LightingGuid=BB3516DB46D4EF5970B92A82D59A0DE2
+End Object
